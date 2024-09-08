@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/lottie/lottie.tsx -> lottie-react":{"id":"../components/lottie/lottie.tsx -> lottie-react","files":["static/chunks/node_modules_lottie-react_build_index_umd_js.js"]}}
