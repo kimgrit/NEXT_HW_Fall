@@ -1,0 +1,27 @@
+@server = http://localhost:3000
+#게시글 조회
+GET {{server}}/book
+###게시글 생성
+POST {{server}}/book
+Content-Type: application/json
+
+{
+   "title": "너는 나의 문학"
+,
+"writer": "박소은"
+}
+
+
+### 특정 게시글 조회
+GET {{server}}/book/<id>
+### 게시글 삭제
+DELETE {{server}}/book/<id>
+### 게시글 수정
+PUT {{server}}/book/<id>
+Content-Type: application/json
+
+{
+"title": "아이디어 불패의 법칙"
+,
+"writer": "-"
+}
